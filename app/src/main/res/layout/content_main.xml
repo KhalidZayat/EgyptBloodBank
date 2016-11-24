@@ -40,7 +40,10 @@
         android:orientation="horizontal"
         >
         <TextView
+            android:id="@+id/Main_A_Plus"
             android:layout_width="0dp"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/border"
@@ -50,6 +53,9 @@
             android:gravity="center"
             android:textColor="@android:color/holo_red_dark" />
         <TextView
+            android:id="@+id/Main_A_minus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -60,6 +66,9 @@
             android:gravity="center"
             android:textColor="@android:color/holo_red_dark" />
         <TextView
+            android:id="@+id/Main_B_Plus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -70,6 +79,9 @@
             android:gravity="center"
             android:textColor="@android:color/holo_red_dark" />
         <TextView
+            android:id="@+id/Main_B_Minus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -87,6 +99,9 @@
         android:paddingLeft="5dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/Main_O_Plus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -97,6 +112,9 @@
             android:gravity="center"
             android:textColor="@android:color/holo_red_dark" />
         <TextView
+            android:id="@+id/Main_O_Minus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -107,6 +125,9 @@
             android:gravity="center"
             android:textColor="@android:color/holo_red_dark" />
         <TextView
+            android:id="@+id/Main_AB_Plus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -117,6 +138,9 @@
             android:gravity="center"
             android:textColor="@android:color/holo_red_dark" />
         <TextView
+            android:id="@+id/Main_AB_Minus"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -134,6 +158,9 @@
         android:paddingLeft="5dp"
         android:orientation="horizontal">
         <TextView
+            android:id="@+id/Main_Any"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
